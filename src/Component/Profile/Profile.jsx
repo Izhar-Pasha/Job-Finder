@@ -29,8 +29,8 @@ const Profile = () => {
         <div className=" w-[85%] gap-10">
           <div className='flex items-center justify-evenly flex-row md:flex-col gap-3'>
 
-            <div className=' bg-red-800 md:h-[145px] md:w-[145px]  rounded-[50%]  p-1 flex items-center justify-center '>
-              <img src={Prof} alt="-" className=' md:h-[130px] md:w-[130px] rounded-[50%]' />
+            <div className=' bg-blue-900 md:h-[145px] md:w-[145px]  rounded-[50%] flex items-center justify-center '>
+              <img src={Prof} alt="-" className=' md:h-[134px] md:w-[134px] flex items-center justify-center rounded-[50%]' />
             </div>
             <div className=' flex items-center justify-center flex-col text-center gap-[0.9px]'>
               <h1 className='md:text-xl text-base text-blue-900 font-bold'>IZHAR PASHA</h1>

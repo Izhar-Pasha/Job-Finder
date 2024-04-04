@@ -11,19 +11,18 @@ import Setting from "./Component/Setting/Setting";
 function App() {
   return (
     <Router>
-      <div className="flex justify-evenly">
-        <div className="md:w-[10%] w-[15%] sticky top-0">
+      <div className="h-screen flex flex-col-reverse justify-evenly md:flex md:flex-row">
+        <div className="md:w-[10%]  w-[100%] flex items-center justify-center sticky top-0">
           <Navbar />
         </div>
-        <div className="h-screen w-[100%] overflow-y-scroll overflow-hidden ">
+        <div className="w-[100%] overflow-y-scroll overflow-hidden ">
           <div className=" w-[100%]">
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="" element={<Home />} />
             <Route exact path="/Search" element={<Search />} />
             <Route exact path="/Profile" element={<Profile />} />
             <Route exact path="/About" element={<About />} />
             <Route exact path="/Setting" element={<Setting />} />
-
           </Routes>
           </div>
         </div>
