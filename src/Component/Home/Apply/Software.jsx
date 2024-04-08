@@ -1,7 +1,6 @@
 import React from 'react';
 import { CiLocationOn } from "react-icons/ci";
 import { FcBusiness } from "react-icons/fc";
-import { TbBrandReactNative } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import { SiPaloaltosoftware } from "react-icons/si";

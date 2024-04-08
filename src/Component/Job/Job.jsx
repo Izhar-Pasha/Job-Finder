@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import Cards from "../../Component/Job/Card";
 
 const Jobs = () => {
