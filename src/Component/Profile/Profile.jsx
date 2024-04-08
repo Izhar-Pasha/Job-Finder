@@ -1,10 +1,4 @@
 import React from 'react';
-// import Prof from "../../Assets/Prof.jpg";
-// import amazon from "../../Assets/amazon.svg";
-// import infosys from "../../Assets/info.svg";
-// import microsoft from "../../Assets/microsoft.svg";
-// import Edu from "../../Assets/Educt.logo.jpg";
-// import cert from "../../Assets/Certificate.jpg";
 import amazon from "../../Assets/Amazon.jpeg";
 import microsoft from "../../Assets/Microsoft .jpeg";
 import infosys from "../../Assets/Infosys.jpeg";
@@ -155,12 +149,12 @@ const Profile = () => {
             {action === "Edu" ? (<div id='Edu' className='bg-white md:h-[100%] rounded-lg md:w-[100%] flex items-center justify-center '>
               <div className='flex  items-center justify-center gap-5 bg-slate-200 p-3 rounded-lg hover:bg-slate-300 ease-in-out '>
                 <div className=' bg-blue-500 h-[60px] w-[60px]  rounded-[50%]  flex items-center justify-center'>
-                  <img src={Edu} alt="-" className=' h-[60px] w-[60px] rounded-[50%] p-[0.09rem]' />
+                  <img src={Edu} alt="-" className=' h-[60px] w-[60px] rounded-[50%] p-[0.09rem] object-fill' />
                 </div>
-                <div className='w-full flex flex-col items-center justify-center gap-2'>
-                  <h2 className='text-xs md:text-lg font-bold'>Mechanical Engineering</h2>
-                  <h4 className='text-xs md:text-base '>In Diploma</h4>
-                  <h2 className='text-xs md:text-lg font-bold'>Vet Bvl Polytechnic</h2>
+                <div className=' w-full flex flex-col items-center justify-center gap-[0.3rem'>
+                  <h2 className='text-[0.6rem] md:text-lg font-bold'>Mechanical Engineering</h2>
+                  <h4 className='text-[0.6rem] md:text-base '>In Diploma</h4>
+                  <h2 className='text-[0.6rem] md:text-lg font-bold'>Vet Bvl Polytechnic</h2>
                 </div>
               </div>
             </div>) : null}
@@ -170,8 +164,8 @@ const Profile = () => {
 
             {action === "Cert" ? (<div id='Cert' className='bg-white h-[100%] rounded-lg w-[100%] flex flex-col items-center justify-center md:gap-8 gap-4 '>
               <div className=' w-[90%] md:w-[80%] flex items-center gap-5 p-3 bg-slate-200 rounded-lg hover:bg-slate-300 ease-in-out '>
-                <div className=' bg-sky-500 h-[70px] w-[70px]    flex items-center justify-center '>
-                  <img src={cert} alt="-" className=' h-[70px] w-[70px] border-2 border-sky-700  object-cover' />
+                <div className=' bg-sky-500 h-[70px] w-[90px]  md:w-[70px]  flex items-center justify-center '>
+                  <img src={cert} alt="-" className=' h-[70px] w-[100%] border-2 border-sky-700  object-fill' />
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2 text-xs'>
                   <h2 className='text-sm md:text-lg font-bold'>Front End Developer</h2>
@@ -179,9 +173,9 @@ const Profile = () => {
                 </div>
               </div>
 
-              <div className='w-[90%] md:w-[80%] flex items-center gap-5 p-3 bg-slate-200 rounded-lg hover:bg-slate-300 ease-in-out '>
-                <div className=' bg-sky-500 h-[70px] w-[70px]     flex items-center justify-center '>
-                  <img src={cert} alt="-" className=' h-[70px] w-[70px] border-2 border-sky-700  object-cover' />
+              <div className='w-[90%] md:w-[80%] flex items-center gap-8 p-3 bg-slate-200 rounded-lg hover:bg-slate-300 ease-in-out '>
+                <div className=' bg-sky-500 h-[70px] w-[60px] md:w-[70px] flex items-center justify-center '>
+                  <img src={cert} alt="-" className=' h-[70px] w-[100%] border-2 border-sky-700  object-fill' />
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2 text-xs'>
                   <h2 className='text-sm md:text-lg font-bold'>Mern Stack</h2>

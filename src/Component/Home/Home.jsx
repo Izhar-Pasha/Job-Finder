@@ -25,6 +25,7 @@ import S4 from "../../Assets/S4.jpeg";
 
 
 function Home() {
+    
     return (
         <div className="bg-slate-100 w-[100%]  flex  items-center justify-center ">
             <div className="w-[98%] flex flex-col items-center justify-center  md:gap-8 ">
@@ -47,27 +48,27 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="h-[200px] w-[100%] flex flex-col justify-center items-start gap-4  md:gap-10">
+                <div className="h-[150px] md:h-[200px] w-[100%] flex flex-col justify-center items-start gap-3  md:gap-10">
                     <div className="flex flex-col p-2 gap-2 ">
                         <div className="md:text-2xl text-base font-semibold">TOP CATEGORIES</div>
                         <div className="h-[4px] w-[35%] bg-blue-600 rounded-xl"></div>
                     </div>
-                    <div className=" h-[100px]  w-[100%] gap-1 flex justify-center items-center p-2 overflow-y-scroll  md:gap-7  ">
+                    <div className=" h-[60px] md:h-[100px]  w-[100%] gap-1 flex justify-center items-center p-2 overflow-x-scroll  md:gap-7 md:overflow-hidden ">
 
-                        <div className="h-[80px] w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl ">
-                            <h3 className="md:text-lg text-[0.55rem] font-semibold">Software Engineer</h3>
+                        <div className="md:h-[80px] h-[50px] w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl ">
+                            <h3 className="md:text-lg text-[0.5rem] font-semibold">Software Engineer</h3>
                         </div>
-                        <div className="h-[80px] w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
-                            <h3 className="md:text-lg text-[0.55rem] font-semibold">Front End Develop</h3>
+                        <div className="md:h-[80px] h-[50px] w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
+                            <h3 className="md:text-lg text-[0.5rem] font-semibold">Front End Develop</h3>
                         </div>
-                        <div className="h-[80px] w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
-                            <h3 className="md:text-lg text-[0.55rem] font-semibold">Back End Developer</h3>
+                        <div className="md:h-[80px] h-[50px] w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
+                            <h3 className="md:text-lg text-[0.5rem] font-semibold">Back End Developer</h3>
                         </div>
-                        <div className="h-[80px]  w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
-                            <h3 className="md:text-lg text-[0.55rem] font-semibold">UX/UI Designer</h3>
+                        <div className="md:h-[80px] h-[50px] w-[23%] md:w-[200px]   flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
+                            <h3 className="md:text-lg text-[0.5rem] font-semibold">UX/UI Designer</h3>
                         </div>
-                        <div className="h-[80px]  w-[23%] md:w-[200px]  flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
-                            <h3 className="md:text-lg text-[0.55rem] font-semibold">Devops Engineer</h3>
+                        <div className="md:h-[80px] h-[50px] w-[23%] md:w-[200px]  flex  items-center justify-center bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl">
+                            <h3 className="md:text-lg text-[0.5rem] font-semibold">Devops Engineer</h3>
                         </div>
                     </div>
                 </div>
@@ -218,35 +219,41 @@ function Home() {
                     <div className="flex justify-evenly items-center w-full ">
                         <div className="flex  p-2  gap-4 overflow-x-scroll  w-[100%] md:overflow-hidden md:w-[80%] md:gap-20">
 
-                            <div className="ml-2 md:h-[200px] md:w-[15%]  flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
-                                <div className=" h-[160px] w-[80px]     flex flex-col items-center justify-evenly gap-2 md:p-2">
-                                    <img src={S1} alt="" className="md:h-[60px] md:w-[60px] h-[40px] w-[40px] border-2 rounded-[50%] border-black " />
-                                    <h3 className="w-full text-[0.5rem] md:text-[0.8rem] font-bold">Andrew Alfred</h3>
-                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.5rem] text-slate-600"><p>FrontEnd Developer</p></span>
+                            <div className="md:h-[120px] md:w-[25%] h-[80px] w-[100%]  flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
+                                <div className=" md:h-[160px] md:w-[100%] h-full w-[100%]   flex items-center justify-evenly gap-2 p-1 md:p-2">
+                                    <img src={S1} alt="" className="md:h-[60px] md:w-[60px] h-[40px] w-[40px] border-2 rounded-[50%] border-black md:mb-2" />
+                                    <div className="flex flex-col">
+                                    <h3 className="w-full text-[0.4rem] md:text-[0.8rem] font-bold">Andrew Alfred</h3>
+                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.3rem] text-slate-600"><p>Software Engineer</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="md:h-[120px] md:w-[25%] h-[80px] w-[100%]   flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
+                                <div className=" md:h-[160px] md:w-[100%] h-full w-[100%]   flex items-center justify-evenly gap-2 p-1 md:p-2">
+                                    <img src={S2} alt="" className="md:h-[60px] md:w-[60px] h-[40px] w-[40px] border-2 rounded-[50%] border-black md:mb-2" />
+                                    <div className="flex flex-col">
+                                    <h3 className="w-full text-[0.4rem] md:text-[0.8rem] font-bold">David</h3>
+                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.3rem] text-slate-600"><p>Software Engineer</p></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="md:h-[120px] md:w-[25%] h-[80px] w-[100%]   flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
+                                <div className=" md:h-[160px] md:w-[100%] h-full w-[100%]   flex items-center justify-evenly gap-2 p-1 md:p-2">
+                                    <img src={S3} alt="" className="md:h-[60px] md:w-[60px] h-[40px] w-[40px] border-2 rounded-[50%] border-black md:mb-2" />
+                                    <div className="flex flex-col">
+                                    <h3 className="w-full text-[0.4rem] md:text-[0.8rem] font-bold">Emilly Fernandis</h3>
+                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.3rem] text-slate-600"><p>Software Engineer</p></span>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className="md:h-[200px] md:w-[15%]   flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
-                                <div className=" h-[160px] w-[80px]     flex flex-col items-center justify-evenly gap-2 md:p-2">
-                                    <img src={S2} alt="" className="md:h-[60px] md:w-[60px] h-[40px] w-[40px] border-2 rounded-[50%] border-black " />
-                                    <h3 className="w-full text-[0.5rem] md:text-[0.8rem] font-bold">David</h3>
-                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.5rem] text-slate-600"><p>Backend Engineer</p></span>
-                                </div>
-                            </div>
-
-                            <div className="md:h-[200px] md:w-[15%]  flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
-                                <div className="h-[160px] w-[80px]     flex flex-col items-center justify-evenly gap-2 md:p-2">
-                                    <img src={S3} alt="" className="md:h-[60px] md:w-[60px] h-[40px] w-[40px]  border-2 rounded-[50%] border-black mb-2" />
-                                    <h3 className="w-full text-[0.5rem] md:text-[0.8rem] font-bold">Emilly Fernandis</h3>
-                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.5rem] text-slate-600"><p>UI UX Deisgn</p></span>
-                                </div>
-                            </div>
-
-                            <div className="md:h-[200px] md:w-[15%]  flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
-                                <div className=" h-[160px] w-[80px]   flex flex-col items-center justify-evenly gap-2 md:p-2">
+                            <div className="md:h-[120px] md:w-[25%] h-[80px] w-[100%]  flex flex-col items-center justify-evenly bg-slate-200 hover:bg-slate-300 border-2 text-center rounded-xl  md:p-2  ">
+                                <div className=" md:h-[160px] md:w-[100%] h-full w-[100%]  flex items-center justify-evenly gap-2 p-1 md:p-2">
                                     <img src={S4} alt="" className="md:h-[60px] md:w-[60px] h-[40px] w-[40px] border-2 rounded-[50%] border-black md:mb-2" />
-                                    <h3 className="w-full text-[0.5rem] md:text-[0.8rem] font-bold">Rahzi Pasha</h3>
-                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.5rem] text-slate-600"><p>Software Engineer</p></span>
+                                    <div className="flex flex-col">
+                                    <h3 className="w-full text-[0.4rem] md:text-[0.8rem] font-bold">Rahzi Pasha</h3>
+                                    <span className="w-full  flex items-center justify-center md:text-xs  text-[0.3rem] text-slate-600"><p>Software Engineer</p></span>
+                                    </div>
                                 </div>
                             </div>
 
