@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Job-Finder/static/css/main.2276344c.css",
-    "main.js": "/Job-Finder/static/js/main.d20bd8b0.js",
+    "main.css": "/Job-Finder/static/css/main.1389f8f8.css",
+    "main.js": "/Job-Finder/static/js/main.9c2dc1e1.js",
     "static/js/453.e19a4dab.chunk.js": "/Job-Finder/static/js/453.e19a4dab.chunk.js",
     "static/media/Profile.png": "/Job-Finder/static/media/Profile.04dc4bc9949deccf86fd.png",
     "static/media/photo5.jpg": "/Job-Finder/static/media/photo5.bbbeafbab8c8602a70a4.jpg",
@@ -16,12 +16,12 @@
     "static/media/Google.jpeg": "/Job-Finder/static/media/Google.366395663f6845f11c36.jpeg",
     "static/media/Infosys.jpeg": "/Job-Finder/static/media/Infosys.dedbd4de5cc1611b3104.jpeg",
     "index.html": "/Job-Finder/index.html",
-    "main.2276344c.css.map": "/Job-Finder/static/css/main.2276344c.css.map",
-    "main.d20bd8b0.js.map": "/Job-Finder/static/js/main.d20bd8b0.js.map",
+    "main.1389f8f8.css.map": "/Job-Finder/static/css/main.1389f8f8.css.map",
+    "main.9c2dc1e1.js.map": "/Job-Finder/static/js/main.9c2dc1e1.js.map",
     "453.e19a4dab.chunk.js.map": "/Job-Finder/static/js/453.e19a4dab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2276344c.css",
-    "static/js/main.d20bd8b0.js"
+    "static/css/main.1389f8f8.css",
+    "static/js/main.9c2dc1e1.js"
   ]
 }
