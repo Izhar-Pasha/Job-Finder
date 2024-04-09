@@ -16,7 +16,7 @@ function App() {
 
   return (
     <Router basename="/Job-Finder">
-      <div className="h-[98vh] md:h-screen flex flex-col-reverse justify-evenly md:flex md:flex-row">
+      <div className="h-[95vh] md:h-screen flex flex-col-reverse justify-evenly md:flex md:flex-row">
         <div className="md:w-[10%]  w-[100%] flex items-center justify-center sticky top-0">
           <Navbar />
         </div>
