@@ -15,7 +15,7 @@ import Software from "./Component/Home/Apply/Software";
 function App() {
 
   return (
-    <Router>
+    <Router basename="/GetHired.com">
       <div className="h-screen flex flex-col-reverse justify-evenly md:flex md:flex-row">
         <div className="md:w-[10%]  w-[100%] flex items-center justify-center sticky top-0">
           <Navbar />
