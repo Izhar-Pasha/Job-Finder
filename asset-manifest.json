@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Job-Finder/static/css/main.01ad9b5b.css",
+    "main.js": "/Job-Finder/static/js/main.8e948fb1.js",
+    "static/js/453.e19a4dab.chunk.js": "/Job-Finder/static/js/453.e19a4dab.chunk.js",
+    "static/media/Profile.png": "/Job-Finder/static/media/Profile.04dc4bc9949deccf86fd.png",
+    "static/media/photo5.jpg": "/Job-Finder/static/media/photo5.bbbeafbab8c8602a70a4.jpg",
+    "static/media/S1.jpeg": "/Job-Finder/static/media/S1.438019e2b38824f66234.jpeg",
+    "static/media/S4.jpeg": "/Job-Finder/static/media/S4.253c2ea90b4a67447a31.jpeg",
+    "static/media/Cert.jpeg": "/Job-Finder/static/media/Cert.335400c2cf90069db86a.jpeg",
+    "static/media/S3.jpeg": "/Job-Finder/static/media/S3.d515e7f69da08b95be9b.jpeg",
+    "static/media/photo3.jpg": "/Job-Finder/static/media/photo3.f8b7ed160ce465c024f9.jpg",
+    "static/media/Edu .jpeg": "/Job-Finder/static/media/Edu .1af549481f1ce679498d.jpeg",
+    "static/media/S2.jpeg": "/Job-Finder/static/media/S2.a1dcfd5462a965e27dba.jpeg",
+    "static/media/Microsoft .jpeg": "/Job-Finder/static/media/Microsoft .125748e67bf1c1d5cead.jpeg",
+    "static/media/Google.jpeg": "/Job-Finder/static/media/Google.366395663f6845f11c36.jpeg",
+    "static/media/Infosys.jpeg": "/Job-Finder/static/media/Infosys.dedbd4de5cc1611b3104.jpeg",
+    "index.html": "/Job-Finder/index.html",
+    "main.01ad9b5b.css.map": "/Job-Finder/static/css/main.01ad9b5b.css.map",
+    "main.8e948fb1.js.map": "/Job-Finder/static/js/main.8e948fb1.js.map",
+    "453.e19a4dab.chunk.js.map": "/Job-Finder/static/js/453.e19a4dab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01ad9b5b.css",
+    "static/js/main.8e948fb1.js"
+  ]
+}
