@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# GetHired.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to GetHired.com, a job portal designed and developed to showcase frontend development skills and provide a platform for job seekers to explore career opportunities.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+GetHired.com is a responsive web application built with a focus on user-centric design and cutting-edge frontend technologies. The platform offers job seekers a seamless and intuitive experience to search and apply for job listings tailored to their skills and interests. This is not real-time job portal its like own designed clone.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Job Listings**: Explore thousands of job listings across various industries and locations.
+- **Apply Online**: Apply for jobs directly through the platform with a user-friendly application process.
+- **User Profiles**: Create and manage user profiles with personalized dashboards to track job applications and saved listings.
+- **Responsive Design**: Enjoy a seamless experience across devices with a fully responsive design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend**:
+  - React.js: Frontend library for building user interfaces.
+  - Tailwind CSS: CSS framework for styling web elements.
+  - HTML5: Markup Language for web elements.
+  - JavaScript: Programming language for interactivity and dynamic content.
+  - ReactIcons: React Icon platform framework for responsive design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Follow these steps to set up and run GetHired.com locally on your machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://izhar-pasha.github.io/Job-Finder/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-### `npm run eject`
+Fork the repository.
+Create a new branch (git checkout -b feature/my-feature).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature/my-feature).
+Create a new Pull Request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License.
+Feel free to customize this README template to fit your specific project details, such as adding more features, technologies used, or any other relevant information. Additionally, provide instructions on how to deploy the website if it's publicly accessible.
